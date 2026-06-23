@@ -1,104 +1,193 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>ORVANTA</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ORVANTA AI Trading Platform</title>
 
-<style>
-
-body{
-margin:0;
-font-family:Arial;
-background:#050505;
-color:white;
-}
-
-.hero{
-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-background:linear-gradient(135deg,#050505,#151515);
-}
-
-.logo{
-font-size:70px;
-font-weight:bold;
-color:#ff6b00;
-}
-
-.tagline{
-font-size:22px;
-margin-top:10px;
-color:#ccc;
-}
-
-.button{
-margin-top:40px;
-padding:15px 40px;
-background:#ff6b00;
-color:white;
-text-decoration:none;
-border-radius:10px;
-font-size:20px;
-}
-
-.stats{
-display:flex;
-gap:30px;
-margin-top:50px;
-}
-
-.card{
-background:#111;
-padding:20px;
-border-radius:15px;
-width:200px;
-text-align:center;
-box-shadow:0 0 20px rgba(255,107,0,.3);
-}
-
-</style>
-
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+<header>
+    <div class="container nav">
+        <div class="logo">
+            ORVANTA
+        </div>
+
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#strategies">Strategies</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="btn" href="#contact">Book Demo</a>
+    </div>
+</header>
+
 <section class="hero">
 
-<div class="logo">
-ORVANTA
-</div>
+    <div class="hero-content">
 
-<div class="tagline">
-AI Powered Options Trading Platform
-</div>
+        <h1>Trade Smarter With ORVANTA AI</h1>
 
-<a href="#" class="button">
-Launch Dashboard
-</a>
+        <p>
+            Advanced Algorithmic Trading Platform
+            For Indian Index Options
+        </p>
 
-<div class="stats">
+        <div class="hero-buttons">
+            <a href="#pricing" class="btn">Get Started</a>
+            <a href="#contact" class="btn-secondary">Talk To Expert</a>
+        </div>
 
-<div class="card">
-<h2>82%</h2>
-Win Rate
-</div>
-
-<div class="card">
-<h2>2.37</h2>
-Profit Factor
-</div>
-
-<div class="card">
-<h2>₹12.5L</h2>
-Managed Capital
-</div>
-
-</div>
+    </div>
 
 </section>
+
+<section class="stats">
+
+    <div class="card">
+        <h2>82%</h2>
+        <p>Historical Win Rate</p>
+    </div>
+
+    <div class="card">
+        <h2>1.8</h2>
+        <p>Profit Factor</p>
+    </div>
+
+    <div class="card">
+        <h2>12</h2>
+        <p>Strategies</p>
+    </div>
+
+    <div class="card">
+        <h2>9</h2>
+        <p>Lot Limit</p>
+    </div>
+
+</section>
+
+<section id="features" class="section">
+
+    <h2>Why ORVANTA</h2>
+
+    <div class="grid">
+
+        <div class="feature-card">
+            <h3>AI Execution Engine</h3>
+            <p>Real-time trade execution.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>Risk Controls</h3>
+            <p>Strict stop loss and lot limits.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>3:15 Auto Exit</h3>
+            <p>All positions squared off automatically.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>Audit Logs</h3>
+            <p>Complete activity tracking.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="strategies" class="section">
+
+    <h2>12 Professional Strategies</h2>
+
+    <div class="grid">
+
+        <div class="strategy">Short Straddle</div>
+        <div class="strategy">Iron Condor</div>
+        <div class="strategy">Directional Short Strangle</div>
+        <div class="strategy">OTM Short Strangle</div>
+        <div class="strategy">Bear Call Spread</div>
+        <div class="strategy">Bull Put Spread</div>
+        <div class="strategy">Trailing Straddle</div>
+        <div class="strategy">Calendar Call Spread</div>
+        <div class="strategy">Long Iron Butterfly</div>
+        <div class="strategy">Multi-Leg Hedge</div>
+        <div class="strategy">Ratio Call Spread</div>
+        <div class="strategy">Ratio Put Spread</div>
+
+    </div>
+
+</section>
+
+<section id="pricing" class="section">
+
+    <h2>Subscription Plans</h2>
+
+    <div class="pricing-grid">
+
+        <div class="price-card">
+            <h3>Starter</h3>
+            <h1>₹12,500</h1>
+            <p>Per Month</p>
+        </div>
+
+        <div class="price-card featured">
+            <h3>Professional</h3>
+            <h1>₹25,000</h1>
+            <p>Per Month</p>
+        </div>
+
+        <div class="price-card">
+            <h3>Institutional</h3>
+            <h1>Custom</h1>
+            <p>Pricing</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact" class="section">
+
+    <h2>Request Demo</h2>
+
+    <form>
+
+        <input type="text" placeholder="Name">
+
+        <input type="email" placeholder="Email">
+
+        <input type="tel" placeholder="Mobile">
+
+        <textarea placeholder="Message"></textarea>
+
+        <button type="submit" class="btn">
+            Submit
+        </button>
+
+    </form>
+
+</section>
+
+<footer>
+
+    <p>
+        Algorithmic trading involves market risk.
+        Past performance does not guarantee future results.
+    </p>
+
+    <p>© 2026 ORVANTA</p>
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
