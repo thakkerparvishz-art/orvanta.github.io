@@ -634,9 +634,9 @@ z-index:999;
 
 /* MOBILE */
 
-@media(max-width:768px){
+@media(max-width:768px)
 
-.hero h1{
+ .hero h1{
 font-size:46px;
 }
 
