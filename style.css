@@ -332,8 +332,7 @@ z-index:999;
 /* MOBILE */
 
 @media(max-width:768px){
-
-```
+}
 .hero h1{
     font-size:46px;
 }
@@ -356,6 +355,6 @@ nav{
 .cta h2{
     font-size:32px;
 }
-```
 
-}
+
+
